@@ -1,5 +1,4 @@
 var generateBtn = document.querySelector("#generate");
-// var displayPassword = document.querySelector("#password")
 
 document.getElementById("generate").onclick = function () {
   alert("Whazzuuuuup! Are you ready to generate your totally random password?");
@@ -54,13 +53,6 @@ document.getElementById("generate").addEventListener("click", function () {
     return;
   }
 
-// Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-
-  passwordText.value = password;
-}
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 function generatePWD() {
@@ -72,15 +64,6 @@ function generatePWD() {
       );
   }
 }
-function generatePWD() {
-  for (var i = 0; i <= length; i++) {
-    password =
-      password +
-      selectEl.charAt(
-        Math.floor(Math.random() * Math.floor(selectEl.length - 1))
-      );
-  }
-
 
 if (lowerConfirm && !upperConfirm && !numberConfirm && !specialConfirm) {
   selectEl = lowercase;
@@ -126,7 +109,6 @@ if (lowerConfirm && !upperConfirm && !numberConfirm && !specialConfirm) {
   generatePWD();
 }
 document.getElementById('password').innerHTML = password;
-console.log(password);
 });
 
 // Write password to the #password input
@@ -138,3 +120,6 @@ function writePassword() {
 
   passwordText.value = password;
 }
+
+// Assignment Code
+var generateBtn = document.querySelector("#generate");
