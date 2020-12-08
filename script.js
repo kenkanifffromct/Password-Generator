@@ -65,10 +65,10 @@ function generatePWD() {
   }
 
   if (lowerConfirm && !upperConfirm && !numberConfirm && !specialConfirm) {
-    selectEl = lowerase;
+    selectEl = lowercase;
     generatePWD();
   } else if (lowerConfirm && upperConfirm && !numberConfirm && !specialConfirm) {
-    selectEl = lowerase + upperase;
+    selectEl = lowercase + uppercase;
     generatePWD();
 function generatePWD() {
       for (var i = 0; i <= length; i++) {
@@ -77,12 +77,12 @@ function generatePWD() {
     }
   
     if (lowerConfirm && !upperConfirm && !numberConfirm && !specialConfirm) {
-      selectEl = lowerase;
+      selectEl = lowercase;
       generatePWD();
     }
-
+  }
     else if (lowerConfirm && upperConfirm && !numberConfirm && !specialConfirm) {
-      selectEl = lowerase + upperase;
+      selectEl = lowercase + uppercase;
       generatePWD();
 // Write password to the #password input
 function writePassword() {
