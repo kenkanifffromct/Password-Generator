@@ -12,3 +12,7 @@ https://kenkanifffromct.github.io/Password-Generator/
 Parameters are set to give the password a minimum and maximum length.
 
 
+## Credits
+Big shoutout to https://github.com/jgibsone4
+[Jason Gibson](https://github.com/jgibsone4)
+
