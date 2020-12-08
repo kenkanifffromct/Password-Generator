@@ -7,7 +7,7 @@ The purpose of this was to create a simple(to the user, not the coder in trainin
 https://kenkanifffromct.github.io/Password-Generator/
 
 ## Demo
-!(Screenshot_(92).png)
+![demo image](Screenshot_(92).png)
 Parameters are set to give the password a minimum and maximum length.
 
 
