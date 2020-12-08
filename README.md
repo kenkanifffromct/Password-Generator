@@ -1,6 +1,6 @@
 # 03 JavaScript: Password Generator
 
-## Our Goal
+## Goal
 The purpose of this was to create a simple(to the user, not the coder in training, believe me) password generator that's created based on the criteria the user chooses to include. This is achieved through functions, statements, prompts, alerts, etc...
 
 ## Functioning Application Link
