@@ -23,7 +23,7 @@ document.getElementById("generate").addEventListener("click", function () {
     return;
   }
 
-  var numConfirm = confirm("Do you want to include numbers in your password?");
+  var numberConfirm = confirm("Do you want to include numbers in your password?");
   var lowerConfirm = confirm(
     "Do you want to include lowercase letters in your password?"
   );
@@ -32,7 +32,7 @@ document.getElementById("generate").addEventListener("click", function () {
   var verify = 0;
 
   if (
-    numConfirm == true ||
+    numberConfirm == true ||
     lowerConfirm == true ||
     upperConfirm == true ||
     specialConfirm == true
