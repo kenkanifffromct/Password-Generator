@@ -83,7 +83,7 @@ function generatePWD() {
   }
     else if (lowerConfirm && upperConfirm && !numberConfirm && !specialConfirm) {
       selectEl = lowercase + uppercase;
-      generatePWD();
+      generatePWD(); }
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
@@ -92,7 +92,7 @@ function writePassword() {
   passwordText.value = password;
 
 }
-    }
+    
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
