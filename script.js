@@ -1,3 +1,4 @@
+// Assignment Code
 var generateBtn = document.querySelector("#generate");
 
 document.getElementById("generate").onclick = function () {
@@ -53,8 +54,7 @@ document.getElementById("generate").addEventListener("click", function () {
     return;
   }
 
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+;
 function generatePWD() {
   for (var i = 0; i <= length; i++) {
     password =
@@ -120,6 +120,6 @@ function writePassword() {
 
   passwordText.value = password;
 }
+// Add event listener to generate button
+generateBtn.addEventListener("click", writePassword)
 
-// Assignment Code
-var generateBtn = document.querySelector("#generate");
