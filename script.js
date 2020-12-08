@@ -24,4 +24,20 @@ document.getElementById("generate").addEventListener("click", function () {
   }
 
   var numConfirm = confirm("Do you want to include numbers in your password?");
+
+  var lowerConfirm = confirm("Do you want to include lowercase letters in your password?");
+
+  var upperConfirm = confirm("How about uppercase letters?");
+
+  var specialConfirm = confirm("Do you want to include numbers in your password?");
+
+  var verify = 0;
+
+  if (numConfirm == true || lowerConfirm == true || upperConfirm == true || specialConfirm == true) {
+    verify += 1;
+  }
+
+  if (verify == 0) {
+    alert("You must select at least one character type for your criteria. Nice try though.")
+  }
 });
