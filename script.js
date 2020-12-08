@@ -1,5 +1,5 @@
 var generateBtn = document.querySelector("#generate");
-// var displayPassword = document.querySelector("#password");
+// var displayPassword = document.querySelector("#password")
 
 document.getElementById("generate").onclick = function () {
   alert("Whazzuuuuup! Are you ready to generate your totally random password?");
@@ -53,7 +53,7 @@ document.getElementById("generate").addEventListener("click", function () {
     );
     return;
   }
-});
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
@@ -124,11 +124,17 @@ if (lowerConfirm && !upperConfirm && !numberConfirm && !specialConfirm) {
 } else if (!lowerConfirm && upperConfirm && !numberConfirm && specialConfirm) {
   selectEl = uppercase +specialCharacters ;
   generatePWD();
+}
+document.getElementById('password').innerHTML = password;
+console.log(password);
+});
+
 // Write password to the #password input
+
+
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
 }
-}}
