@@ -8,6 +8,7 @@ https://kenkanifffromct.github.io/Password-Generator/
 
 ## Demo
 ![demo image](Screenshot_(92).png)
+
 Parameters are set to give the password a minimum and maximum length.
 
 
