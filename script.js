@@ -8,31 +8,27 @@ document.getElementById("generate").onclick = function () {
 
 // Add event listener to the generate button
 document.getElementById("generate").addEventListener("click", function () {
-  var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var lowercase = "abcdefghijklmnopqrstuvwxyz";
+  var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var specialCharacters = "!@#$%^&*()_+<>?:";
-  var numbers = "123456789";
+  var numbers = "0123456789";
   var selectEl = "";
   var password = "";
-  var userCount = prompt(
+  var length = prompt(
     "How many characters would you like your password to have? Note: It must be between 8 and 128"
   );
 
-  if (userCount < 8 || userCount > 128) {
+  if (length < 8 || length > 128) {
     alert("Password must be between 8 and 128 characters.");
     return;
   }
 
   var numConfirm = confirm("Do you want to include numbers in your password?");
-
   var lowerConfirm = confirm(
     "Do you want to include lowercase letters in your password?"
   );
-
   var upperConfirm = confirm("How about uppercase letters?");
-
   var specialConfirm = confirm("How do you feel about special characters?");
-
   var verify = 0;
 
   if (
@@ -93,7 +89,7 @@ document.getElementById("generate").addEventListener("click", function () {
     !lowerConfirm &&
     !upperConfirm &&
     numberConfirm &&
-    !specialConfirm
+    specialConfirm
   ) {
     selectEl = numbers + specialCharacters;
     generatePWD();
