@@ -32,7 +32,7 @@ document.getElementById("generate").addEventListener("click", function () {
 
   var upperConfirm = confirm("How about uppercase letters?");
 
-  var specialConfirm = confirm("Do you want to include numbers in your password?");
+  var specialConfirm = confirm("How do you feel about special characters?");
 
   var verify = 0;
 
