@@ -13,5 +13,5 @@ Parameters are set to give the password a minimum and maximum length.
 
 
 ## Credits
-Big shoutout to [Jason Gibson](https://github.com/jgibsone4)
+Big shoutout to [Jason Gibson](https://github.com/jgibsone4)! I could not have gotten this done without his help and patience.
 
